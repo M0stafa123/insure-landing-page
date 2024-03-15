@@ -1,0 +1,42 @@
+@import "./fonts.css";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* global */
+.btn {
+  @apply hover:bg-white hover:text-DarkViolet font-bold transition-all px-5 py-2 mx-auto text-white border-2 border-white font-Karla tracking-[1px];
+}
+/*  */
+/* header */
+header nav ul li {
+  @apply mx-auto md:!mx-0 my-10 md:my-0 !w-fit md:!text-DarkGrayishViolet md:hover:!text-DarkViolet md:cursor-pointer cursor-default;
+}
+header nav ul {
+  @apply absolute left-0 z-20 transition-all w-full h-[calc(600px)] font-bold text-white bg-VeryDarkViolet 
+  md:bg-white md:h-auto top-full font-Karla md:relative  md:flex justify-end items-center gap-10;
+}
+/*  */
+/* howWeWork */
+.howWeWork {
+  @apply relative z-10 w-11/12 p-5 py-[50px] mx-auto overflow-hidden text-center text-white bg-DarkViolet;
+}
+/*  */
+/* footer */
+footer section:first-of-type {
+  @apply relative z-10;
+}
+footer section:first-of-type span:last-of-type img {
+  @apply transition-all hover:brightness-0;
+}
+footer section:last-of-type div h1 {
+  @apply my-10 text-DarkGrayishViolet;
+}
+footer section:last-of-type div {
+  @apply text-center md:text-start md:w-[25%] font-Karla tracking-[1px] font-semibold text-sm;
+}
+footer section:last-of-type div ul li {
+  @apply my-3 relative after:absolute after:w-0 after:h-[1px] after:left-0 after:top-full after:bg-DarkViolet hover:after:w-full after:transition-all w-fit 
+  mx-auto md:mx-0 md:cursor-pointer;
+}
+/*  */

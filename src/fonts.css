@@ -1,0 +1,15 @@
+@font-face {
+  font-family: "DM Serif Display";
+  src: url("../public/Fonts/DM_Serif_Display/DMSerifDisplay-Regular.ttf");
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Karla";
+  src: url("../public/Fonts/Karla/static/Karla-Regular.ttf");
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Karla";
+  src: url("../public/Fonts/Karla/static/Karla-Bold.ttf");
+  font-weight: 700;
+}
