@@ -19,22 +19,22 @@ const Footer = () => {
         </span>
         <span className="flex items-center gap-4 min-h-[40px]">
           <img
-            className="w-[24px] h-[24px]"
+            className="w-[24px] h-[24px] md:cursor-pointer"
             src="./images/icon-facebook.svg"
             alt="facebook"
           />
           <img
-            className="w-[24px] h-[24px]"
+            className="w-[24px] h-[24px] md:cursor-pointer"
             src="./images/icon-twitter.svg"
             alt="twitter"
           />
           <img
-            className="w-[24px] h-[24px]"
+            className="w-[24px] h-[24px] md:cursor-pointer"
             src="./images/icon-pinterest.svg"
             alt="pinterest"
           />
           <img
-            className="w-[24px] h-[24px]"
+            className="w-[24px] h-[24px] md:cursor-pointer"
             src="./images/icon-instagram.svg"
             alt="instagram"
           />
