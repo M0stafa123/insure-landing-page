@@ -27,7 +27,7 @@ const Landing = () => {
           />
         </span>
         <div className="relative p-5 py-[60px] md:p-0 text-center md:text-start text-white ">
-          <div className="absolute top-0 left-0 block w-full h-full md:hidden">
+          <div className="absolute top-0 left-0 block w-full h-full pointer-events-none md:hidden">
             <img
               className="absolute top-0 left-0 w-[30%]"
               src="./images/bg-pattern-intro-left-mobile.svg"
