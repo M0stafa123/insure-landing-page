@@ -26,7 +26,7 @@ const Landing = () => {
             alt="intro"
           />
         </span>
-        <div className="relative p-5 py-[60px] md:p-0 text-center md:text-start text-white ">
+        <div className="relative p-5 py-[60px] h-[400px] md:h-auto md:p-0 text-center md:text-start text-white ">
           <div className="absolute top-0 left-0 block w-full h-full pointer-events-none md:hidden">
             <img
               className="absolute top-0 left-0 w-[30%]"

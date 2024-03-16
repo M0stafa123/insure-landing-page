@@ -13,7 +13,7 @@ const Nav = () => {
         <span>
           <img className="w-[112px] h-[18px]" src="./images/logo.svg" alt="logo" />
         </span>
-        <div className="md:w-3/4 lg:w-1/2">
+        <div className="md:w-3/4">
           <span className="block md:hidden">
             <img
               className="w-[32px] h-[32px]"
@@ -35,7 +35,7 @@ const Nav = () => {
             </li>
             <li className="block md:hidden">
               <img
-                className="absolute bottom-0 left-0"
+                className="absolute bottom-0 left-0 w-full h-[290px]"
                 src="./images/bg-pattern-mobile-nav.svg"
                 alt="nav"
               />
